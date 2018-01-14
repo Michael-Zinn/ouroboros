@@ -2,7 +2,7 @@
 
 ![ouroboros logo](Ouroboros-simple.png)
 
-Macro code generator for Java written with Ravr which was generated with Ouroboros.
+Macro code generator for Java written with Ravr which was generated with Ouroboros, hence the name/logo.
 
 _v0.0.1 (experimental, incomplete)_
 

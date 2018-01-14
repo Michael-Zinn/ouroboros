@@ -1,0 +1,27 @@
+{
+  "package": {
+    "name": "ouroboros",
+    "repo": "ouroboros",
+    "subject": "rednifre",
+    "desc": "Code generator macros for Java",
+    "website_url": "https://github.com/RedNifre/ouroboros",
+    "issue_tracker_url": "https://github.com/RedNifre/ouroboros/issues",
+    "vcs_url": "https://github.com/RedNifre/ouroboros",
+    "licenses": ["LGPLv3"],
+    "labels": ["code generation"],
+    "public_download_numbers": false,
+    "public_stats": false
+  },
+ 
+  "version": {
+    "name": "0.0.1",
+    "released": "2018-01-14",
+    "gpgSign": false
+  },
+ 
+  "files":
+  [
+    {"includePattern": "build/libs/(.*)", "uploadPattern": "de/michaelzinn/ouroboros/ouroboros/0.0.1/$1"}
+  ],
+  "publish": true
+}

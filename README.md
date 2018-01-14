@@ -1,6 +1,6 @@
 # Ouroboros
 
-![ouroboros logo](ouroboros.png)
+![ouroboros logo](Ouroboros-simple.png)
 
 Macro code generator for Java written with Ravr which was generated with Ouroboros.
 

@@ -45,15 +45,15 @@ public class Macro {
                 typeMacro.expand(this, macroParameterCount, macroParameterCount) + " " +
                 name + "(\n\t\t" +
                 doWith(
-                        List.of(
+                        List.of( // why does "List(" not work here?
                                 joinOption(", ", initialParameters),
-                                doWith(List.range(0, macroParameterCount),
+                                doWith(range(0, macroParameterCount),
                                         map(i -> parameterMacro.expand(this, i, macroParameterCount)),
                                         joinOption(",\n\t\t")
                                 ),
                                 joinOption(", ", trailingParametersMacro.expand(this, macroParameterCount, macroParameterCount))
                         ),
-                        Ravr::concatOptions,
+                        concatOptions(),
                         join(",\n\t\t")
                 ) + "\n\t) {\n" +
                 bodyOuter.expand(this, macroParameterCount, macroParameterCount)._1() +
